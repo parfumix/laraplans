@@ -17,6 +17,6 @@ SaaS style recurring plans for Laravel 5.
 
 ## Install
 
-    composer require gerardojbaez/laraplans
+    composer require parfumix/laraplans
 
 For package setup please follow the [install guide](http://laraplans.readthedocs.io/en/latest/install.html).
