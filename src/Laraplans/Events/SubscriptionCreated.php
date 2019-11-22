@@ -1,8 +1,8 @@
 <?php
 
-namespace Gerardojbaez\Laraplans\Events;
+namespace Parfumux\Laraplans\Events;
 
-use Gerardojbaez\Laraplans\Models\PlanSubscription;
+use Parfumux\Laraplans\Models\PlanSubscription;
 use Illuminate\Queue\SerializesModels;
 
 class SubscriptionCreated

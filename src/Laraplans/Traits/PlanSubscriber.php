@@ -1,16 +1,16 @@
 <?php
 
-namespace Gerardojbaez\Laraplans\Traits;
+namespace Parfumux\Laraplans\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Container\Container;
 use Illuminate\Support\Facades\App;
-use Gerardojbaez\Laraplans\SubscriptionBuilder;
-use Gerardojbaez\Laraplans\Contracts\PlanInterface;
-use Gerardojbaez\Laraplans\SubscriptionUsageManager;
-use Gerardojbaez\Laraplans\Contracts\PlanSubscriptionInterface;
-use Gerardojbaez\Laraplans\Contracts\SubscriptionBuilderInterface;
-use Gerardojbaez\Laraplans\Contracts\SubscriptionResolverInterface;
+use Parfumux\Laraplans\SubscriptionBuilder;
+use Parfumux\Laraplans\Contracts\PlanInterface;
+use Parfumux\Laraplans\SubscriptionUsageManager;
+use Parfumux\Laraplans\Contracts\PlanSubscriptionInterface;
+use Parfumux\Laraplans\Contracts\SubscriptionBuilderInterface;
+use Parfumux\Laraplans\Contracts\SubscriptionResolverInterface;
 
 trait PlanSubscriber
 {
@@ -18,7 +18,7 @@ trait PlanSubscriber
      * Get a subscription by name.
      *
      * @param  string $name
-     * @return \Gerardojbaez\Laraplans\Models\PlanSubscription|null
+     * @return \Parfumux\Laraplans\Models\PlanSubscription|null
      */
     public function subscription($name = 'default')
     {
@@ -66,7 +66,7 @@ trait PlanSubscriber
      *
      * @param string $subscription
      * @param mixed $plan
-     * @return \Gerardojbaez\Laraplans\Models\PlanSubscription
+     * @return \Parfumux\Laraplans\Models\PlanSubscription
      */
     public function newSubscription($subscription, $plan)
     {
@@ -85,7 +85,7 @@ trait PlanSubscriber
      * Get subscription usage manager instance.
      *
      * @param  string $subscription
-     * @return \Gerardojbaez\Laraplans\SubscriptionUsageManager
+     * @return \Parfumux\Laraplans\SubscriptionUsageManager
      */
     public function subscriptionUsage($subscription = 'default')
     {

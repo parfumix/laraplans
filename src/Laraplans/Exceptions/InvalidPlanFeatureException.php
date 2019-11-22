@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerardojbaez\Laraplans\Exceptions;
+namespace Parfumux\Laraplans\Exceptions;
 
 class InvalidPlanFeatureException extends \Exception
 {

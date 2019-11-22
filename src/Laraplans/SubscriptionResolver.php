@@ -1,9 +1,9 @@
 <?php
 
-namespace Gerardojbaez\Laraplans;
+namespace Parfumux\Laraplans;
 
 use Illuminate\Database\Eloquent\Model;
-use Gerardojbaez\Laraplans\Contracts\SubscriptionResolverInterface;
+use Parfumux\Laraplans\Contracts\SubscriptionResolverInterface;
 
 class SubscriptionResolver implements SubscriptionResolverInterface
 {

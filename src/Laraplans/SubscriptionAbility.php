@@ -1,8 +1,8 @@
 <?php
 
-namespace Gerardojbaez\Laraplans;
+namespace Parfumux\Laraplans;
 
-use Gerardojbaez\Laraplans\Feature;
+use Parfumux\Laraplans\Feature;
 
 class SubscriptionAbility
 {

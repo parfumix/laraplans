@@ -1,16 +1,16 @@
 <?php
 
-namespace Gerardojbaez\Laraplans;
+namespace Parfumux\Laraplans;
 
 use Illuminate\Support\ServiceProvider;
-use Gerardojbaez\Laraplans\SubscriptionBuilder;
-use Gerardojbaez\Laraplans\SubscriptionResolver;
-use Gerardojbaez\Laraplans\Contracts\PlanInterface;
-use Gerardojbaez\Laraplans\Contracts\PlanFeatureInterface;
-use Gerardojbaez\Laraplans\Contracts\PlanSubscriptionInterface;
-use Gerardojbaez\Laraplans\Contracts\SubscriptionBuilderInterface;
-use Gerardojbaez\Laraplans\Contracts\SubscriptionResolverInterface;
-use Gerardojbaez\Laraplans\Contracts\PlanSubscriptionUsageInterface;
+use Parfumux\Laraplans\SubscriptionBuilder;
+use Parfumux\Laraplans\SubscriptionResolver;
+use Parfumux\Laraplans\Contracts\PlanInterface;
+use Parfumux\Laraplans\Contracts\PlanFeatureInterface;
+use Parfumux\Laraplans\Contracts\PlanSubscriptionInterface;
+use Parfumux\Laraplans\Contracts\SubscriptionBuilderInterface;
+use Parfumux\Laraplans\Contracts\SubscriptionResolverInterface;
+use Parfumux\Laraplans\Contracts\PlanSubscriptionUsageInterface;
 
 class LaraplansServiceProvider extends ServiceProvider
 {

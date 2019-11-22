@@ -1,10 +1,10 @@
 <?php
 
-namespace Gerardojbaez\Laraplans\Tests\Models;
+namespace Parfumux\Laraplans\Tests\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Gerardojbaez\Laraplans\Contracts\PlanSubscriberInterface;
-use Gerardojbaez\Laraplans\Traits\PlanSubscriber;
+use Parfumux\Laraplans\Contracts\PlanSubscriberInterface;
+use Parfumux\Laraplans\Traits\PlanSubscriber;
 
 class User extends Authenticatable implements PlanSubscriberInterface
 {
