@@ -1,10 +1,10 @@
 <?php
 
-namespace Parfumux\Laraplans;
+namespace Parfumix\Laraplans;
 
 use Carbon\Carbon;
-use Parfumux\Laraplans\Period;
-use Parfumux\Laraplans\Exceptions\InvalidPlanFeatureException;
+use Parfumix\Laraplans\Period;
+use Parfumix\Laraplans\Exceptions\InvalidPlanFeatureException;
 
 class Feature
 {
@@ -33,7 +33,7 @@ class Feature
      * Create a new Feature instance.
      *
      * @param string $feature_code
-     * @throws  \Parfumux\Laraplans\Exceptions\InvalidPlanFeatureException
+     * @throws  \Parfumix\Laraplans\Exceptions\InvalidPlanFeatureException
      * @return void
      */
     public function __construct($feature_code)

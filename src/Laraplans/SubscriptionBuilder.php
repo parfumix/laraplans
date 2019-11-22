@@ -1,10 +1,10 @@
 <?php
 
-namespace Parfumux\Laraplans;
+namespace Parfumix\Laraplans;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
-use Parfumux\Laraplans\Contracts\SubscriptionBuilderInterface;
+use Parfumix\Laraplans\Contracts\SubscriptionBuilderInterface;
 
 class SubscriptionBuilder implements SubscriptionBuilderInterface
 {
@@ -88,7 +88,7 @@ class SubscriptionBuilder implements SubscriptionBuilderInterface
      * Create a new subscription.
      *
      * @param  array  $options
-     * @return \Parfumux\Laraplans\Models\PlanSubscription
+     * @return \Parfumix\Laraplans\Models\PlanSubscription
      */
     public function create(array $attributes = [])
     {

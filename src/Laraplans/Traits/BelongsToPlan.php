@@ -1,6 +1,6 @@
 <?php
 
-namespace Parfumux\Laraplans\Traits;
+namespace Parfumix\Laraplans\Traits;
 
 trait BelongsToPlan
 {

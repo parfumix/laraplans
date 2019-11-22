@@ -1,10 +1,10 @@
 <?php
 
-namespace Parfumux\Laraplans\Models;
+namespace Parfumix\Laraplans\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
-use Parfumux\Laraplans\Contracts\PlanSubscriptionUsageInterface;
+use Parfumix\Laraplans\Contracts\PlanSubscriptionUsageInterface;
 
 class PlanSubscriptionUsage extends Model implements PlanSubscriptionUsageInterface
 {

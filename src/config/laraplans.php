@@ -29,10 +29,10 @@ return [
     |
     */
     'models' => [
-        'plan' => 'Parfumux\Laraplans\Models\Plan',
-        'plan_feature' => 'Parfumux\Laraplans\Models\PlanFeature',
-        'plan_subscription' => 'Parfumux\Laraplans\Models\PlanSubscription',
-        'plan_subscription_usage' => 'Parfumux\Laraplans\Models\PlanSubscriptionUsage',
+        'plan' => 'Parfumix\Laraplans\Models\Plan',
+        'plan_feature' => 'Parfumix\Laraplans\Models\PlanFeature',
+        'plan_subscription' => 'Parfumix\Laraplans\Models\PlanSubscription',
+        'plan_subscription_usage' => 'Parfumix\Laraplans\Models\PlanSubscriptionUsage',
     ],
 
     /*

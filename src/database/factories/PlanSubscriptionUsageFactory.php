@@ -1,7 +1,7 @@
 <?php
 
-use Parfumux\Laraplans\Models\PlanSubscription;
-use Parfumux\Laraplans\Models\PlanSubscriptionUsage;
+use Parfumix\Laraplans\Models\PlanSubscription;
+use Parfumix\Laraplans\Models\PlanSubscriptionUsage;
 
 $factory->define(PlanSubscriptionUsage::class, function (Faker\Generator $faker) {
     return [

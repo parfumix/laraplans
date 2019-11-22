@@ -1,8 +1,8 @@
 <?php
 
-namespace Parfumux\Laraplans\Events;
+namespace Parfumix\Laraplans\Events;
 
-use Parfumux\Laraplans\Models\PlanSubscription;
+use Parfumix\Laraplans\Models\PlanSubscription;
 use Illuminate\Queue\SerializesModels;
 
 class SubscriptionCanceled

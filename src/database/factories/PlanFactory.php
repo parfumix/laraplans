@@ -1,6 +1,6 @@
 <?php
 
-use Parfumux\Laraplans\Models\Plan;
+use Parfumix\Laraplans\Models\Plan;
 
 $factory->define(Plan::class, function (Faker\Generator $faker) {
     return [

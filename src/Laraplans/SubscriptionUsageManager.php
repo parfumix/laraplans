@@ -1,6 +1,6 @@
 <?php
 
-namespace Parfumux\Laraplans;
+namespace Parfumix\Laraplans;
 
 class SubscriptionUsageManager
 {
@@ -28,7 +28,7 @@ class SubscriptionUsageManager
      *
      * @param string $feature
      * @param int $uses
-     * @return \Parfumux\Laraplans\Models\PlanSubscriptionUsage
+     * @return \Parfumix\Laraplans\Models\PlanSubscriptionUsage
      */
     public function record($feature, $uses = 1, $incremental = true)
     {
@@ -66,7 +66,7 @@ class SubscriptionUsageManager
      *
      * @param string $feature
      * @param int $uses
-     * @return \Parfumux\Laraplans\Models\PlanSubscriptionUsage
+     * @return \Parfumix\Laraplans\Models\PlanSubscriptionUsage
      */
     public function reduce($feature, $uses = 1)
     {

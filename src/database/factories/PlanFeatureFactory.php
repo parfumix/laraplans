@@ -1,7 +1,7 @@
 <?php
 
-use Parfumux\Laraplans\Models\Plan;
-use Parfumux\Laraplans\Models\PlanFeature;
+use Parfumix\Laraplans\Models\Plan;
+use Parfumix\Laraplans\Models\PlanFeature;
 
 $factory->define(PlanFeature::class, function (Faker\Generator $faker) {
     return [

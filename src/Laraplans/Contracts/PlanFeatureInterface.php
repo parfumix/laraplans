@@ -1,6 +1,6 @@
 <?php
 
-namespace Parfumux\Laraplans\Contracts;
+namespace Parfumix\Laraplans\Contracts;
 
 interface PlanFeatureInterface
 {

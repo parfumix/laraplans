@@ -1,9 +1,9 @@
 <?php
 
-namespace Parfumux\Laraplans;
+namespace Parfumix\Laraplans;
 
 use Carbon\Carbon;
-use Parfumux\Laraplans\Exceptions\InvalidIntervalException;
+use Parfumix\Laraplans\Exceptions\InvalidIntervalException;
 
 class Period
 {
@@ -61,7 +61,7 @@ class Period
      * @param  string $interval Interval
      * @param  int $count Interval count
      * @param  string $start Starting point
-     * @throws  \Parfumux\Laraplans\Exceptions\InvalidIntervalException
+     * @throws  \Parfumix\Laraplans\Exceptions\InvalidIntervalException
      * @return  void
      */
     public function __construct($interval = 'month', $count = 1, $start = '')

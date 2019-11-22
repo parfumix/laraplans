@@ -1,6 +1,6 @@
 <?php
 
-namespace Parfumux\Laraplans\Contracts;
+namespace Parfumix\Laraplans\Contracts;
 
 interface SubscriptionBuilderInterface
 {
@@ -23,7 +23,7 @@ interface SubscriptionBuilderInterface
      * Create a new subscription.
      *
      * @param  array  $options
-     * @return \Parfumux\Laraplans\Models\PlanSubscription
+     * @return \Parfumix\Laraplans\Models\PlanSubscription
      */
     public function create(array $attributes = []);
 }

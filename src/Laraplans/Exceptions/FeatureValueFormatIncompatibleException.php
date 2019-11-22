@@ -1,6 +1,6 @@
 <?php
 
-namespace Parfumux\Laraplans\Exceptions;
+namespace Parfumix\Laraplans\Exceptions;
 
 class FeatureValueFormatIncompatibleException extends \Exception
 {

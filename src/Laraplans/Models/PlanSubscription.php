@@ -1,26 +1,26 @@
 <?php
 
-namespace Parfumux\Laraplans\Models;
+namespace Parfumix\Laraplans\Models;
 
 use DB;
 use App;
 use Carbon\Carbon;
 use LogicException;
-use Parfumux\Laraplans\Period;
+use Parfumix\Laraplans\Period;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Database\Eloquent\Model;
-use Parfumux\Laraplans\Models\PlanFeature;
-use Parfumux\Laraplans\SubscriptionAbility;
-use Parfumux\Laraplans\Traits\BelongsToPlan;
-use Parfumux\Laraplans\Contracts\PlanInterface;
-use Parfumux\Laraplans\SubscriptionUsageManager;
-use Parfumux\Laraplans\Events\SubscriptionCreated;
-use Parfumux\Laraplans\Events\SubscriptionRenewed;
-use Parfumux\Laraplans\Events\SubscriptionCanceled;
-use Parfumux\Laraplans\Events\SubscriptionPlanChanged;
-use Parfumux\Laraplans\Contracts\PlanSubscriptionInterface;
-use Parfumux\Laraplans\Exceptions\InvalidPlanFeatureException;
-use Parfumux\Laraplans\Exceptions\FeatureValueFormatIncompatibleException;
+use Parfumix\Laraplans\Models\PlanFeature;
+use Parfumix\Laraplans\SubscriptionAbility;
+use Parfumix\Laraplans\Traits\BelongsToPlan;
+use Parfumix\Laraplans\Contracts\PlanInterface;
+use Parfumix\Laraplans\SubscriptionUsageManager;
+use Parfumix\Laraplans\Events\SubscriptionCreated;
+use Parfumix\Laraplans\Events\SubscriptionRenewed;
+use Parfumix\Laraplans\Events\SubscriptionCanceled;
+use Parfumix\Laraplans\Events\SubscriptionPlanChanged;
+use Parfumix\Laraplans\Contracts\PlanSubscriptionInterface;
+use Parfumix\Laraplans\Exceptions\InvalidPlanFeatureException;
+use Parfumix\Laraplans\Exceptions\FeatureValueFormatIncompatibleException;
 
 class PlanSubscription extends Model implements PlanSubscriptionInterface
 {
@@ -69,7 +69,7 @@ class PlanSubscription extends Model implements PlanSubscriptionInterface
     /**
      * Subscription Ability Manager instance.
      *
-     * @var Parfumux\Laraplans\SubscriptionAbility
+     * @var Parfumix\Laraplans\SubscriptionAbility
      */
     protected $ability;
 
@@ -295,7 +295,7 @@ class PlanSubscription extends Model implements PlanSubscriptionInterface
     /**
      * Get Subscription Ability instance.
      *
-     * @return \Parfumux\Laraplans\SubscriptionAbility
+     * @return \Parfumix\Laraplans\SubscriptionAbility
      */
     public function ability()
     {

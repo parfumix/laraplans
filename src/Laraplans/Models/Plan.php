@@ -1,11 +1,11 @@
 <?php
 
-namespace Parfumux\Laraplans\Models;
+namespace Parfumix\Laraplans\Models;
 
-use Parfumux\Laraplans\Period;
+use Parfumix\Laraplans\Period;
 use Illuminate\Database\Eloquent\Model;
-use Parfumux\Laraplans\Contracts\PlanInterface;
-use Parfumux\LaraPlans\Exceptions\InvalidPlanFeatureException;
+use Parfumix\Laraplans\Contracts\PlanInterface;
+use Parfumix\LaraPlans\Exceptions\InvalidPlanFeatureException;
 
 class Plan extends Model implements PlanInterface
 {

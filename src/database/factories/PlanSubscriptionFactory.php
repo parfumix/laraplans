@@ -1,8 +1,8 @@
 <?php
 
-use Parfumux\Laraplans\Models\Plan;
-use Parfumux\Laraplans\Tests\Models\User;
-use Parfumux\Laraplans\Models\PlanSubscription;
+use Parfumix\Laraplans\Models\Plan;
+use Parfumix\Laraplans\Tests\Models\User;
+use Parfumix\Laraplans\Models\PlanSubscription;
 
 $factory->define(PlanSubscription::class, function (Faker\Generator $faker) {
     return [

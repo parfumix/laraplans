@@ -1,6 +1,6 @@
 <?php
 
-use Parfumux\Laraplans\Tests\Models\User;
+use Parfumix\Laraplans\Tests\Models\User;
 
 $factory->define(User::class, function (Faker\Generator $faker) {
     return [
