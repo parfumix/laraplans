@@ -5,8 +5,8 @@
     "license": "MIT",
     "type": "library",
     "require": {
-        "illuminate/database": "^7.0@dev",
-        "illuminate/support": "^7.0@dev"
+        "illuminate/database": "^6.0@dev",
+        "illuminate/support": "^6.0@dev"
     },
     "autoload": {
         "psr-4": {
